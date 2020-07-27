@@ -17,20 +17,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9bc753-0bd9-4af4-9326-e279fb31d217" name="Default Changelist" comment="Added database table for User and Post and also checked and verified it through SQLAlchemy">
-      <change afterPath="$PROJECT_DIR$/ffgt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ffgt/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ffgt/templates/account.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ffgt/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ffgt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ffgt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ffgt/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ffgt/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ffgt/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -69,7 +63,28 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ffgt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ffgt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ffgt/routes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ffgt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +109,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.routes" />
         <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
@@ -171,25 +187,25 @@
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state x="1946" y="207" width="432" height="482" key="FileChooserDialogImpl/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595747784068" />
-    <state width="1579" height="230" key="GridCell.Tab.0.bottom" timestamp="1595759990050">
+    <state width="1579" height="230" key="GridCell.Tab.0.bottom" timestamp="1595832469350">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.bottom/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595759990050" />
-    <state width="1579" height="230" key="GridCell.Tab.0.center" timestamp="1595759990050">
+    <state width="1579" height="230" key="GridCell.Tab.0.bottom/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595832469350" />
+    <state width="1579" height="230" key="GridCell.Tab.0.center" timestamp="1595832469350">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.center/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595759990050" />
-    <state width="1579" height="230" key="GridCell.Tab.0.left" timestamp="1595759990050">
+    <state width="1579" height="230" key="GridCell.Tab.0.center/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595832469350" />
+    <state width="1579" height="230" key="GridCell.Tab.0.left" timestamp="1595832469350">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.left/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595759990050" />
-    <state width="1579" height="230" key="GridCell.Tab.0.right" timestamp="1595759990050">
+    <state width="1579" height="230" key="GridCell.Tab.0.left/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595832469350" />
+    <state width="1579" height="230" key="GridCell.Tab.0.right" timestamp="1595832469350">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.right/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595759990050" />
-    <state x="1366" y="25" width="1238" height="728" key="SettingsEditor" timestamp="1595787546426">
+    <state width="1579" height="230" key="GridCell.Tab.0.right/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595832469350" />
+    <state x="1366" y="25" width="1238" height="728" key="SettingsEditor" timestamp="1595831794263">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state x="1366" y="25" width="1238" height="728" key="SettingsEditor/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595787546426" />
+    <state x="1366" y="25" width="1238" height="728" key="SettingsEditor/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595831794263" />
   </component>
 </project>
