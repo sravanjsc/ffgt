@@ -11,16 +11,26 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:section_4_sqlalchemy" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:section_5_package_structure" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca9bc753-0bd9-4af4-9326-e279fb31d217" name="Default Changelist" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+    <list default="true" id="ca9bc753-0bd9-4af4-9326-e279fb31d217" name="Default Changelist" comment="Added database table for User and Post and also checked and verified it through SQLAlchemy">
+      <change afterPath="$PROJECT_DIR$/ffgt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ffgt/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -60,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ffgt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595748780498</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added database table for User and Post and also checked and verified it through SQLAlchemy">
+      <created>1595786854949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595786854949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -123,7 +140,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="section_4_sqlalchemy" />
+                        <option value="section_5_package_structure" />
                       </list>
                     </value>
                   </entry>
@@ -138,7 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Added database table for User and Post and also checked and verified it through SQLAlchemy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added database table for User and Post and also checked and verified it through SQLAlchemy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2052" y="325" width="225" height="251" key="#Notifications" timestamp="1595748670895">
@@ -169,9 +187,9 @@
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state width="1579" height="230" key="GridCell.Tab.0.right/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595759990050" />
-    <state x="1662" y="86" key="SettingsEditor" timestamp="1595784739232">
+    <state x="1366" y="25" width="1238" height="728" key="SettingsEditor" timestamp="1595787546426">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state x="1662" y="86" key="SettingsEditor/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595784739232" />
+    <state x="1366" y="25" width="1238" height="728" key="SettingsEditor/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595787546426" />
   </component>
 </project>
