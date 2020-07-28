@@ -25,15 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca9bc753-0bd9-4af4-9326-e279fb31d217" name="Default Changelist" comment="Added User Authentication for registration and login. Also redirection to a specific page.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffgt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffgt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffgt/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffgt/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/site.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffgt/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/templates/account.html" afterDir="false" />
-    </list>
+    <list default="true" id="ca9bc753-0bd9-4af4-9326-e279fb31d217" name="Default Changelist" comment="Added facility to for Accout details updates including username, email and profile picture" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595834909822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added facility to for Accout details updates including username, email and profile picture">
+      <created>1595914521276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595914521276</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -188,7 +187,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Added database table for User and Post and also checked and verified it through SQLAlchemy" />
     <MESSAGE value="Added User Authentication for registration and login. Also redirection to a specific page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added User Authentication for registration and login. Also redirection to a specific page." />
+    <MESSAGE value="Added facility to for Accout details updates including username, email and profile picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added facility to for Accout details updates including username, email and profile picture" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2052" y="325" width="225" height="251" key="#Notifications" timestamp="1595748670895">
@@ -203,22 +203,22 @@
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state x="1946" y="207" width="432" height="482" key="FileChooserDialogImpl/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595747784068" />
-    <state width="1579" height="230" key="GridCell.Tab.0.bottom" timestamp="1595914043474">
+    <state width="1579" height="230" key="GridCell.Tab.0.bottom" timestamp="1595914475258">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.bottom/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595914043474" />
-    <state width="1579" height="230" key="GridCell.Tab.0.center" timestamp="1595914043474">
+    <state width="1579" height="230" key="GridCell.Tab.0.bottom/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595914475258" />
+    <state width="1579" height="230" key="GridCell.Tab.0.center" timestamp="1595914475258">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.center/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595914043474" />
-    <state width="1579" height="230" key="GridCell.Tab.0.left" timestamp="1595914043474">
+    <state width="1579" height="230" key="GridCell.Tab.0.center/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595914475258" />
+    <state width="1579" height="230" key="GridCell.Tab.0.left" timestamp="1595914475258">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.left/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595914043474" />
-    <state width="1579" height="230" key="GridCell.Tab.0.right" timestamp="1595914043474">
+    <state width="1579" height="230" key="GridCell.Tab.0.left/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595914475258" />
+    <state width="1579" height="230" key="GridCell.Tab.0.right" timestamp="1595914475258">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.right/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595914043474" />
+    <state width="1579" height="230" key="GridCell.Tab.0.right/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595914475258" />
     <state x="1366" y="25" width="1238" height="728" key="SettingsEditor" timestamp="1595914206002">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
