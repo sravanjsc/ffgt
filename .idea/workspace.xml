@@ -25,15 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca9bc753-0bd9-4af4-9326-e279fb31d217" name="Default Changelist" comment="static directory is added.">
-      <change afterPath="$PROJECT_DIR$/ffgt/templates/create_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ffgt/templates/post.html" afterDir="false" />
+    <list default="true" id="ca9bc753-0bd9-4af4-9326-e279fb31d217" name="Default Changelist" comment="Static files are added.">
+      <change afterPath="$PROJECT_DIR$/ffgt/templates/user_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffgt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ffgt/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ffgt/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/site.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ffgt/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffgt/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ffgt/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/ffgt/templates/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595914907968</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CRUD for post has completed.">
+      <created>1595921309203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595921309203</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Static files are added.">
+      <created>1595921362323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595921362323</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -205,7 +217,9 @@
     <MESSAGE value="Added User Authentication for registration and login. Also redirection to a specific page." />
     <MESSAGE value="Added facility to for Accout details updates including username, email and profile picture" />
     <MESSAGE value="static directory is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="static directory is added." />
+    <MESSAGE value="CRUD for post has completed." />
+    <MESSAGE value="Static files are added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Static files are added." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2052" y="325" width="225" height="251" key="#Notifications" timestamp="1595748670895">
@@ -220,22 +234,22 @@
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state x="1946" y="207" width="432" height="482" key="FileChooserDialogImpl/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595747784068" />
-    <state width="1579" height="230" key="GridCell.Tab.0.bottom" timestamp="1595920121918">
+    <state width="1579" height="230" key="GridCell.Tab.0.bottom" timestamp="1596000158725">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.bottom/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595920121918" />
-    <state width="1579" height="230" key="GridCell.Tab.0.center" timestamp="1595920121918">
+    <state width="1579" height="230" key="GridCell.Tab.0.bottom/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1596000158725" />
+    <state width="1579" height="230" key="GridCell.Tab.0.center" timestamp="1596000158725">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.center/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595920121918" />
-    <state width="1579" height="230" key="GridCell.Tab.0.left" timestamp="1595920121918">
+    <state width="1579" height="230" key="GridCell.Tab.0.center/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1596000158725" />
+    <state width="1579" height="230" key="GridCell.Tab.0.left" timestamp="1596000158725">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.left/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595920121918" />
-    <state width="1579" height="230" key="GridCell.Tab.0.right" timestamp="1595920121918">
+    <state width="1579" height="230" key="GridCell.Tab.0.left/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1596000158725" />
+    <state width="1579" height="230" key="GridCell.Tab.0.right" timestamp="1596000158725">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="230" key="GridCell.Tab.0.right/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1595920121918" />
+    <state width="1579" height="230" key="GridCell.Tab.0.right/0.25.1366.718/1366.0.1600.900@1366.0.1600.900" timestamp="1596000158725" />
     <state x="1366" y="25" width="1238" height="728" key="SettingsEditor" timestamp="1595914206002">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
